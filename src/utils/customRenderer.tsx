@@ -3,7 +3,7 @@ import React, { ReactElement } from "react";
 import { render, RenderOptions, RenderResult } from "@testing-library/react";
 import { ChakraProvider } from "@chakra-ui/react";
 import { BrowserRouter as Router } from "react-router-dom";
-import { CartItemProvider } from "../../../providers/CartItemProvider"; // GlobalContextのProviderをインポート
+// import { CartItemProvider } from "../../../providers/CartItemProvider"; // GlobalContextのProviderをインポート
 
 interface AllTheProvidersProps {
     children: ReactElement;
